@@ -1,0 +1,805 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Fira+Sans:ital,wght@1,100&family=PT+Serif:wght@700&family=Satisfy&display=swap');
+body{
+   
+    background-color: #f7f7f7;
+    animation: infinite;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-image: url(Imagenes/148fd3b974f485f355f9bd7045ded75c.jpg);
+    height: -webkit-fill-available;
+overflow: hidden;
+
+}
+
+
+html {
+  height:-webkit-fill-available;
+}
+body.caso6 {
+  background-image: url(Imagenes/backgroundesnashei.jpg);
+  background-size: cover;
+background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+	align-items: center;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+#caso6{
+ 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji');
+
+:root {
+  --primary-color: #ff1e1e;
+  --secondary-color: #ffe221;
+  --tertiary-color: #180bd48a;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+.container {
+  width: 400px;
+  height: 220px;
+  position: relative;
+}
+
+h1, h2 {
+  font-size: 75px;
+  text-transform: uppercase;
+}
+
+h1 span {
+  width: 100%;
+  float: left;
+  color: var(--tertiary-color);
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+  transform: translateY(-50px);
+  opacity: 0;
+  animation-name: titleAnimation;
+  animation-timing-function: ease;
+  animation-duration: 9s;
+}
+
+h1 span:first-child {
+  animation-delay: 0.6s;
+}
+
+h1 span:last-child {
+  color: var(--secondary-color);
+  animation-delay: 0.5s;
+}
+
+h2 {
+  top: 61px;
+    position: absolute;
+    font-size: 16px;
+    left: 531px;
+}
+
+h2 span {
+  animation-delay: 4.1s;
+}
+
+h2 span:first-child {
+  animation-delay: 4.2s;
+}
+
+h2 span:last-child {
+  color: var(--secondary-color);
+  animation-delay: 4s;
+}
+
+.usechrome {
+  font-size: 10px;
+  color: #fff;
+  font-family: helvetica, arial;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+}
+
+@keyframes titleAnimation {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+  }
+  20% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+  80% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+  100% {
+    transform: translateY(50px);
+    opacity: 0;
+    -webkit-clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);
+    clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);
+  }
+}
+
+
+
+.parrafopresentacion{
+  display: none;
+            position: relative;
+            top: 10px;
+            width: 600px;
+            font-size: 1.5em;
+            left: 370px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 300px;
+  position: relative;
+  left: 1375%;
+  top: -687.5%;
+}
+
+
+.cursor{
+  animation: 0.6s parpadeo-cursor infinite;
+}
+
+@media(max-width: 968px){
+
+
+.parrafopresentacion{
+  font-size: 10px;
+  display: none;
+  display: flex;
+  top: 158px;
+  left: 175px;
+}
+body {
+  background-size: cover;
+  background-position: center;
+    background-repeat: no-repeat;
+}
+#Boton-Presentacion{
+  /* display: flex; */
+  /* position: relative; */
+  /* top: 180px; */
+  /* width: 123px; */
+  /* font-size: 10px; */
+}
+
+
+
+.giftsito{
+  position: fixed;
+  top: 3px;
+  left: 393px;
+  height: 230px;
+}
+
+.YaconocesmiHistory{
+ 
+}
+.gatocompleto{
+  display: block;
+  position: relative;
+  left: -175px;
+}
+}
+.home {
+  /* Estilos para el contenedor principal */
+}
+
+.in-flex {
+  /* Estilos para el contenedor flexible */
+}
+
+.button-78 {
+  /* Estilos para los botones */
+}
+
+.parrafopresentacion {
+  /* Estilos para el párrafo de presentación */
+}
+
+.giftsito {
+  /* Estilos para la imagen */
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 968px) {
+  .in-flex {
+      flex-direction: column; /* Cambiar la dirección de los elementos */
+      align-items: center; /* Centrar los elementos verticalmente */
+  }
+  body {
+    background-size: cover;
+  background-position: center;
+    background-repeat: no-repeat;
+}
+  .button-78 {
+      margin-bottom: 10px; /* Agregar un margen inferior a los botones */
+  }
+}
+#CasoOne {
+  position: relative;
+  left: -80px;
+  /* Otros estilos para el contenedor */
+}
+
+.parrafoAnimal {
+  /* Estilos para el párrafo */
+}
+
+#gatoCompleto {
+  /* Estilos para la imagen del gato completo */
+}
+
+.button-78 {
+  /* Estilos para los botones */
+}
+
+.YaconocesmiHistory {
+  /* Estilos para la imagen de la historia */
+}
+
+.button-89 {
+  /* Estilos para los botones Siguiente y Atrás */
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 968px) {
+  #CasoOne {
+      left: 0;
+  }
+  body {
+    background-size: cover;
+    background-position: center;
+      background-repeat: no-repeat;
+}
+
+#Section1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 99%;
+}
+  #gatoCompleto {
+      left: 0;
+  }
+  #CasoOne{
+    
+      background-size: cover;
+  
+  }
+  .button-78 {
+      margin-left: 0;
+  }
+
+  
+
+  .button-89 {
+      top: 0;
+      right: 0;
+      left: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Section3 {
+  
+}
+
+
+
+#gatocompleto {
+  display: flex;
+  margin-left: 650px;
+}
+
+
+
+#caso2 {
+ 
+}
+
+.pregunta {
+  margin-bottom: 20px;
+}
+
+
+
+
+.BotonSiguiente2 {
+  margin-top: 20px;
+}
+
+
+
+
+/* CSS */
+
+
+#Emmapresentacion {
+    display: none;
+    
+  border-right: 0.15em solid #000; /* Simula el cursor intermitente */
+  margin: 0; /* Ajusta los márgenes según sea necesario */
+  letter-spacing: 0.15em; /* Espaciado entre letras */
+  animation: typing 3s steps(70, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #000; }
+}
+
+  @import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/* CSS */
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
+/* CSS */
+.button-78 {
+  align-items: center;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: Eina01,sans-serif;
+  font-size: 16px;
+  font-weight: 80;
+  justify-content: center;
+  line-height: 24px;
+  margin: 0;
+  min-height: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 0px 26px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+}
+
+@media (min-width: 968px) {
+  .button-78 {
+    padding: 19px 32px;
+  }
+}
+
+.button-78:before,
+.button-78:after {
+  border-radius: 80px;
+}
+
+.button-78:before {
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button-78:after {
+  background-color: initial;
+  background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.button-78:hover:not(:disabled):before {
+  background: linear-gradient(92.83deg, rgb(255, 116, 38) 0%, rgb(249, 58, 19) 100%);
+}
+
+.button-78:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+  opacity: 0;
+}
+
+.button-78:active:not(:disabled) {
+  color: #ccc;
+}
+
+.button-78:active:not(:disabled):before {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+}
+
+.button-78:active:not(:disabled):after {
+  background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.button-78:disabled {
+  cursor: default;
+  opacity: .24;
+}
+
+
+#contenedor {
+  border: 1px solid rgb(0, 17, 255);
+  padding: 20px;
+  float: left;
+  margin: 150px 20px;
+}
+#contenedor div {
+  width: 100%;
+  margin: 0 auto;
+}
+/* Estilo para cada cuadrado de la sopa de letras */
+#contenedor .letra {
+  height: 30px;
+  width: 30px;
+  text-transform: uppercase;
+  background-color: white;
+  border: 0;
+  font: 1em sans-serif;
+}
+/* Colores cuando se selecciona un cuadrado */
+#contenedor .selected {
+  background-color: rgb(8, 179, 2);
+}
+#contenedor:hover .selected:hover {
+  background-color: rgb(145, 255, 0);
+  font-weight: bold;
+}
+#contenedor>div>button:hover {
+  background-color: rgb(145, 255, 0);
+  font-weight: bold;
+}
+/* Indica que la letra es parte de una palabra que se ha encontrado */
+#contenedor .found {
+  background-color: #c0c0c0;
+  color: white;
+  border: 1px solid black;
+  font-weight: bold;
+  text-shadow: 0px 2px 3px #000;
+}
+#contenedor .found:hover {
+  background-color: rgb(145, 255, 0);
+  font-weight: bold;
+}
+/* Colores de palabras no encontradas cuando se pulsa el botón Resolver sopa de letras*/
+#contenedor .solved {
+  background-color: purple;
+  color: white;
+}
+/* Cambio de color de fondo cuando se encuentras todas las palabras*/
+#contenedor .complete {
+  background-color: green;
+}
+/**
+* Estilos para la lista de palabras
+*/
+#palabras-sopadeletras {
+  padding-top: 20px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+  width: 300px;
+}
+#palabras-sopadeletras ul {
+  list-style-type: none;
+}
+#palabras-sopadeletras li {
+  padding: 3px 0;
+  font: 1em sans-serif;
+}
+/*Indica que la palabra ha sido encontrada en la lista */
+#palabras-sopadeletras .palabraEncontrada {
+  text-decoration: line-through;
+  color: rgb(255, 0, 0);
+}
+/**
+*  Estilos para el botón
+*/
+#BTNrefresh {
+  position: absolute;
+  bottom: 0em;
+}
+#BTNresolver {
+  bottom: 3em;
+  position: absolute;
+}
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+/**
+* Wordfind.js 0.0.1
+* (c) 2012 Bill, BunKat LLC.
+* Wordfind is freely distributable under the MIT license.
+* For all details and documentation:
+*     http://github.com/bunkat/wordfind
+*/
+
+p {
+  font: 18pt sans-serif;
+  margin: 20px 20px 0px 20px;
+}
+
+/**
+* Styles for the puzzle
+*/
+#juego {
+  border: 1px solid black;
+  padding: 20px;
+  float: left;
+  margin: 30px 20px;
+}
+
+#juego div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* style for each square in the puzzle */
+#juego .puzzleSquare {
+  height: 90px;
+  width: 90px;
+  text-transform: uppercase;
+  background-color: rgb(139, 181, 243);
+  border: 0;
+  font: 1em sans-serif;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+/* indicates when a square has been selected */
+#juego .selected {
+  background-color: orange;
+}
+
+/* indicates that the square is part of a word that has been found */ 
+#juego .found {
+  background-color: blue;
+  color: white;
+}
+
+#juego .solved {
+  background-color: purple;
+  color: white;
+}
+
+/* indicates that all words have been found */
+#juego .complete {
+  background-color: green;
+}
+
+/**
+* Styles for the word list
+*/
+#Palabras {
+  padding-top: 20px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+  width: 300px;
+}
+
+#Palabras ul {
+  list-style-type: none;
+}
+
+#Palabras li {
+  padding: 3px 0;
+  font: 1em sans-serif;
+}
+
+/* indicates that the word has been found */
+#Palabras .wordFound {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/**
+* Styles for the button
+*/
+#solve {
+  margin: 0 30px;
+}
+
+
+/* CSS */
+.button-45 {
+  align-items: center;
+  background-color: #FFE7E7;
+  background-position: 0 0;
+  border: 1px solid #FEE0E0;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #D33A2C;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  padding: 2px 12px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+.button-45:active,
+.button-45:hover,
+.button-45:focus {
+  outline: 0;
+}
+
+
+.button-45:active {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+.button-45:hover {
+  background-color: #FFE3E3;
+  border-color: #FAA4A4;
+}
+
+.button-45:active:hover,
+.button-45:focus:hover,
+.button-45:focus {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
